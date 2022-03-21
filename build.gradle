@@ -4,7 +4,8 @@ buildscript {
         classpath "com.didiglobal.booster:booster-gradle-plugin:4.5.3"
         //本地调试
 //        classpath "com.minminaya:exposure_plugin:0.0.3"
-//        classpath "com.github.minminaya:RecyclerViewExposure:0.0.1"
+        //远程测试
+//        classpath "com.github.minminaya:RecyclerViewExposure:c61ea7f610"
     }
 }
 

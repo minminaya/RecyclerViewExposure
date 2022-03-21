@@ -5,7 +5,7 @@ import android.os.Looper;
 
 /**
  * 在异步线程中,可通过此帮助类直接向主线程发送消息
- * <p>
+ *
  * Author: minminaya  😊😊😊
  * Email: minminaya@gmail.com
  * Date: 2022/3/16 20:40
