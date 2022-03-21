@@ -27,5 +27,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "RecyclerViewExposure"
 include ':app'
-include ':library'
-include ':plugin'
+//include ':library'
+//include ':plugin'
