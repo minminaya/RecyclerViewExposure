@@ -8,6 +8,7 @@ pluginManagement {
         jcenter()
         maven { url 'https://oss.sonatype.org/content/repositories/public/' }
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url 'https://jitpack.io' }
     }
 }
 dependencyResolutionManagement {
@@ -21,9 +22,10 @@ dependencyResolutionManagement {
         jcenter()
         maven { url 'https://oss.sonatype.org/content/repositories/public/' }
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url 'https://jitpack.io' }
     }
 }
 rootProject.name = "RecyclerViewExposure"
-include ':app'
-include ':library'
+//include ':app'
+//include ':library'
 include ':plugin'
