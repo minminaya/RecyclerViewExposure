@@ -1035,8 +1035,10 @@ class ListAdapterImprEventHelper(
 
 
 
+#### 其他
 
+[博客链接](https://www.jianshu.com/p/0f6ad1ae5e2b)
 
-## 开源协议
+# 开源协议
 
 无
