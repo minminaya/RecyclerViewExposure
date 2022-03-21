@@ -5,7 +5,8 @@ buildscript {
         //本地调试
 //        classpath "com.minminaya:exposure_plugin:0.0.3"
         //远程测试
-//        classpath "com.github.minminaya:RecyclerViewExposure:c61ea7f610"
+//        classpath "com.github.minminaya.RecyclerViewExposure:exposure_plugin:ba0965a54f"
+//        classpath "com.minminaya:exposure_plugin:0.0.2"
     }
 }
 

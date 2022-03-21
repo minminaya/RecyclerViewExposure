@@ -10,7 +10,7 @@ import org.objectweb.asm.tree.ClassNode
 class PageLifeCycleHolderTransformer : ClassTransformer {
 
     override fun transform(context: TransformContext, klass: ClassNode): ClassNode {
-        println("Transforming ${klass.name}")
+//        println("Transforming ${klass.name}")
         if (klass.name in IGNORE_CLASS_NAME_LIST) {
             return klass
         }
