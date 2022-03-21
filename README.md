@@ -1034,11 +1034,12 @@ class ListAdapterImprEventHelper(
 -  Gradle 插件编译插桩（ASM/Javassist） 是很强大的工具，除了本篇提到的替换继承类的功能外，只能用为所欲为来形容它们了。比如常见的项目问题线程池问题的治理，测试mock 数据，ARouter 中路由表的生成和初始化，AndResGuard 中对资源路径的缩减，对三方库中混乱调用系统 API 获取敏感信息进行治理等等。ASM 性能优秀但是入手难度大，需要开发者熟悉 Class 文件体系，JVM 指令集，ASM API 的使用（Visitor 模式），这也要求开发者需要有相关的基础知识储备，不然很容易玩不下去。
 
 
-
-#### 其他
-
-[博客链接](https://www.jianshu.com/p/0f6ad1ae5e2b)
-
 # 开源协议
 
 无
+
+---
+
+# 其他
+
+[博客链接](https://www.jianshu.com/p/0f6ad1ae5e2b)
