@@ -1,0 +1,23 @@
+apply plugin: 'maven-publish'
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId 'com.minminaya'
+            artifactId 'exposure_plugin'
+            version '0.0.1'
+
+            from components.java
+            // more goes in here
+        }
+    }
+
+    repositories {
+        //本地调试使用
+//        mavenLocal()
+        maven {
+            // 生成的插件位置
+            url = uri('../repo')
+        }
+    }
+}

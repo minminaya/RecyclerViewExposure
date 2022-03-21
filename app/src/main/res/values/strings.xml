@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecyclerViewExposure</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_list_adapter">(List Adapter)</string>
+    <string name="activity_rv_adapter">(RecyclerView Adapter)</string>
+    <string name="fragment_example">Fragment Example</string>
+
+</resources>
